@@ -12,5 +12,15 @@ This project was developed as part of the Secure Application Development course 
 
 The focus of the project was to implement secure coding practices throughout the application, including input validation, user authentication, and session management.
 
-Video Demo: https://drive.google.com/file/d/1PK_85tpIaxWimNnmQap4Af9Uw7lYmXUj/view?usp=sharing 
+#### Video Demo
 
+https://drive.google.com/file/d/1PK_85tpIaxWimNnmQap4Af9Uw7lYmXUj/view?usp=sharing 
+
+#### Running the code
+
+```
+mysql -u root -p < database-account.sql
+# Password for team_12 is stored in the PHP file
+mysql -u team_12 -p facebook_users < database-schema.sql
+php -S localhost:8000   
+```
